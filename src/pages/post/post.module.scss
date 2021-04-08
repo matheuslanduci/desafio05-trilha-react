@@ -1,1 +1,60 @@
-// TODO
+.container {
+  width: 100%;
+
+  img {
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+  }
+
+  article {
+    margin-top: 3rem;
+    width: 100%;
+
+    h1 {
+      color: var(--heading);
+      font-size: 3rem;
+      line-height: 3.625rem;
+      letter-spacing: -0.5px;
+    }
+
+    .data {
+      margin-top: 1.5rem;
+
+      display: flex;
+
+      .author,
+      .readTime {
+        margin-left: 26px;
+      }
+
+      time,
+      .author,
+      .readTime {
+        display: flex;
+        align-items: center;
+
+        font-size: 0.875rem;
+
+        svg {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+
+.content {
+  margin: 4rem 0;
+  width: 100%;
+
+  h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    line-height: 2.125rem;
+  }
+
+  p {
+    margin-bottom: 0.5rem;
+  }
+}
